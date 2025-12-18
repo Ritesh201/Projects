@@ -7,6 +7,6 @@ public abstract class Handler {
         return next;
     }
 
-    abstract void print(String logLevel,String message) ;
-    abstract void print(String logLevel,String message,String serviceName) ;
+    abstract void print(Log log) ;
+
 }
