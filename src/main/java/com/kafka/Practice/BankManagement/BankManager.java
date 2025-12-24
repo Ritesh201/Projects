@@ -10,8 +10,9 @@ import com.kafka.Practice.BankManagement.Transaction.TransactionService;
 
 public class BankManager {
 
-     AccountService accountService;
+    AccountService accountService;
     public BankManager(AccountService accountService){
+
         this.accountService=accountService;
     }
     public void mainn() throws Exception {
